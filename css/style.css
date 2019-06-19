@@ -1,0 +1,103 @@
+.adidas{
+	vertical-align: middle;
+	width: 100px;
+	height: 100px;
+	margin-right: 100px;
+}
+.d-block{
+	display: inline-block;
+}
+.nav-li{
+	font-size: 20px;
+	color: green;
+	margin-right: 80px;
+	font-size: 42px;
+	vertical-align: middle;
+}
+.nav-ul{
+	margin-left: 80px;
+}
+.nav-a{
+	color: green;
+}
+.yellow{
+	color: #CCCC00;
+}
+.red{
+	color: red;
+}
+.blue{
+	color: #3366CC;
+}
+.header-box{
+	position: fixed;
+	top: 0;
+	left: 0px;
+	width: 100%;
+	border: 2px solid red;
+}
+.section{
+	background-color: #FFFF99;
+}
+body{
+	padding-top: 104px;
+}
+.p-absolute{
+	position: absolute;
+}
+.p-relative{
+	position: relative;
+}
+.mountian-ride{
+	font-size: 50px;
+	color: #fff;
+	top: 5%;
+	left: 8%;
+}
+.divigation{
+	width: 600px;
+	height: 400px;
+}
+.div-2 img{
+	width: 600px;
+	height: 400px;
+}
+.choice{
+	font-size: 40px;
+	color: silver;
+	top: 2%;
+	left: 7%;
+}
+.juta{
+	width: 1300px;
+	height: 800px;
+	top: 0;
+	left: 605px;
+}
+.fifth-season{
+	top: 2%;
+	left: 200%;
+	font-size: 50px;
+	color: #fff;
+}
+.wraper{
+	width: 1170px;
+	margin: 0 auto;
+	border: 3px solid aqua;
+	position: sticky;
+}
+.box-1{
+	width: 500px;
+	background-color: yellow;
+	margin-right: 50px;
+}
+.box-1 img{
+	width: 150px;
+}
+.box-2 img{
+	width: 150px;
+}
+.box-2{
+	width: 500px;
+	background-color: yellow;
+}
