@@ -17,6 +17,15 @@
 .nav-ul{
 	margin-left: 80px;
 }
+.header-box{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	border: 2px solid aqua;
+	z-index: 5;
+	background-color: #fff;
+}
 .nav-a{
 	color: green;
 }
@@ -29,16 +38,6 @@
 .blue{
 	color: #3366CC;
 }
-.header-box{
-	position: fixed;
-	top: 0;
-	left: 0px;
-	width: 100%;
-	border: 2px solid red;
-}
-.section{
-	background-color: #FFFF99;
-}
 body{
 	padding-top: 104px;
 }
@@ -48,15 +47,17 @@ body{
 .p-relative{
 	position: relative;
 }
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
 .mountian-ride{
 	font-size: 50px;
 	color: #fff;
 	top: 5%;
 	left: 8%;
-}
-.divigation{
-	width: 600px;
-	height: 400px;
 }
 .div-2 img{
 	width: 600px;
@@ -68,36 +69,56 @@ body{
 	top: 2%;
 	left: 7%;
 }
-.juta{
-	width: 1300px;
-	height: 800px;
-	top: 0;
-	left: 605px;
-}
-.fifth-season{
-	top: 2%;
-	left: 200%;
-	font-size: 50px;
-	color: #fff;
-}
 .wraper{
 	width: 1170px;
 	margin: 0 auto;
-	border: 3px solid aqua;
 	position: sticky;
 }
 .box-1{
-	width: 500px;
 	background-color: yellow;
-	margin-right: 50px;
+	width: 48.5%;
+	height: 205px;
+}
+.box-2{
+	background-color: yellow;
+	width: 48.5%;
+	height: 205px;
 }
 .box-1 img{
 	width: 150px;
 }
 .box-2 img{
 	width: 150px;
+	height: 100px;
 }
-.box-2{
-	width: 500px;
-	background-color: yellow;
+.text{
+	font-size: 20px;
+	height: 100%;
+}
+.stick-div{
+	position: sticky;
+	top: 0;
+	left: 0;
+	border: 2px solid red;
+	z-index: 6;
+}
+.stick-p{
+	position: sticky;
+	top: 0;
+	font-size: 25px;
+	text-align: center;
+}
+.div-3{
+	position: relative;
+}
+
+.div-3 img{
+	width: 100%;
+	height: 720px;
+}
+.logo-img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100px;
 }
